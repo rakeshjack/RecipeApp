@@ -14,8 +14,6 @@ export class RecipeListComponent implements OnInit {
   ngOnInit() {
   }
   onRecipeSelected(recipe: Recipe) {
-      console.log(recipe);
-      alert('I am here');
       this.recipeWasSelected.emit(recipe);
   }
 

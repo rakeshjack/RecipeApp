@@ -18,5 +18,4 @@ export class ReceipesComponent implements OnInit {
           this.selectedRecipe=recipe;
       });
   }
-
 }
